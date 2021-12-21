@@ -142,7 +142,7 @@ font-family: Satoshi;
 font-style: normal;
 font-weight: 600;
 font-size: 21px;
-line-height: 16px;
+line-height: 19px;
 
 color: #0069B9;
 }
@@ -5648,7 +5648,49 @@ h6 {
     margin-right: 10px;
     font-size: 12px
 }
-@media screen and (min-width:769px) and (max-width:1024px)
+
+@media screen and (min-width:280px) and (max-width:321px){
+    .product-row{
+        margin-left: 3% !important;
+    }
+}
+@media screen and (min-width:360px) and (max-width:400px){
+    .product-row{
+        margin-left: 10% !important;
+    }
+    
+}
+@media screen and (min-width:400px) and (max-width:425px){
+    .product-row{
+        margin-left: 16% !important;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:768px){
+    .product-row{
+        margin-left: 12% !important;
+    }
+    
+}
+@media screen and (min-width:1024px) and (max-width:1280px){
+    .product-row{
+        margin-left: 5% !important;
+    }
+    
+}
+@media screen and (min-width:1024px) and (max-width:1280px){
+    .product-row{
+        margin-left: 5% !important;
+    }
+    
+}
+
+
+
+
+
+
+/* @media screen and (min-width:769px) and (max-width:1024px)
 {
     .product-row{
         margin-left:43px !important;
@@ -5659,9 +5701,9 @@ h6 {
         margin-left:67px !important;
     }
 }
-@media  (min-width:321px) and (max-width:375px){
+@media  (min-width:321px) and (max-width:420px){
     .product-row{
-        margin-left:43px !important;
+        margin-left:44px !important;
     }
 }
 
@@ -5669,7 +5711,7 @@ h6 {
     .product-row{
         margin-left:12px !important;
     }
-}
+} */
 
 .custom-button {
     background: #ff7900;
@@ -5715,25 +5757,11 @@ h6 {
     text-decoration: none;
     color: white;
   }
-  @media screen and  (max-width:768px){
-    .sp-768{
-        margin-top: 2%;
-        margin-left: 11%;
-      }
-  }
-  @media screen and (max-width:425px){
-      .sp-375{
-        margin-top: 5%;
-        margin-left: 21%;
-      }
-  }
-  @media screen and (max-width:425px){
-    .sp-375-new{
-        margin-top: 5%;
-        margin-left: 23%;
-      }
-  }
-  .brand-img{
-      width:107.143px;
-      height: 107.43px;
-  }
+
+
+@media screen and (max-width:430px){
+    .new-final{
+        margin-block-start: 4% !important;
+        margin-block-end: 4% !important;
+    }
+}
