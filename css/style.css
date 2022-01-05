@@ -1060,7 +1060,8 @@ h3 {
 }
 
 .slider-area .single-slider {
-    height: 760px;
+    height: 600px;
+    /* height:70%; */
     background-size: cover;
     background-position: center;
     display: -webkit-box;
@@ -1090,8 +1091,9 @@ h3 {
     opacity: .2
 }
 
+
 .slider-area .single-slider .slider-content {
-    background: #fff;
+    background: #fff !important;
     padding: 73px 56px 100px 50px;
     position: relative;
     z-index: 9;
@@ -1111,7 +1113,7 @@ h3 {
     margin-bottom: 16px
 }
 
-.slider-area .single-slider .slider-content h3 {
+ .slider-content h3 {
     font-family: "Rubik", sans-serif;
     font-weight: 500;
     font-size: 60px;
@@ -1121,26 +1123,26 @@ h3 {
 }
 
 @media (max-width: 767px) {
-    .slider-area .single-slider .slider-content h3 {
+     .slider-content h3 {
         font-size: 25px;
         line-height: 45px;
         margin-bottom: 10px
     }
 }
 
-.slider-area .single-slider .slider-content a i {
+ .slider-content a i {
     font-size: 14px;
     padding-left: 5px
 }
 
-.slider-area .single-slider .slider-content .slider-btn {
+.slider-content .slider-btn {
     position: absolute;
     bottom: 0;
     left: 55px
 }
 
 @media (max-width: 767px) {
-    .slider-area .single-slider .slider-content .slider-btn {
+    .slider-content .slider-btn {
         left: 40px
     }
 }
@@ -1187,21 +1189,28 @@ h3 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    height: 70px
+    /* height: 70px */
 }
 
 .brand-area .brand-active .single-brand img {
-    width: auto;
+    /* width: auto; */
     display: inline-block
 }
 
 .service-area {
-    padding-top: 120px;
+    padding-top: 75px;
     padding-bottom: 120px
 }
 
 .service-area .single-service .service-thumb {
-    margin-bottom: 39px
+    margin-bottom: 39px;
+    
+}
+.card-shadow{
+    box-shadow: 0px 7px 16px rgb(0 0 0 / 35%);
+}
+.card-shadow:hover{
+    text-decoration: none;
 }
 
 .service-area .single-service .service-thumb img {
@@ -1255,6 +1264,10 @@ h3 {
         padding-top: 60px;
         padding-bottom: 20px
     }
+}
+.card-title-new{
+    color:white;
+    text-transform: uppercase;
 }
 
 .service-details .details-nav {
@@ -2729,7 +2742,9 @@ h3 {
         padding-bottom: 100px
     }
 }
-
+.banner-bg-2{
+    background-image:url(../img/banner/banner.jpg) ;
+}
 .banner-bg-1 {
     background-image: url(../img/banner/service.jpg)
 }
