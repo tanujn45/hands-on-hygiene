@@ -2748,6 +2748,9 @@ h3 {
 .banner-bg-1 {
     background-image: url(../img/banner/service.jpg)
 }
+.banner-bg-3 {
+    background-image:  -webkit-repeating-linear-gradient(0deg,rgba(0,0,0,0.05),rgba(0,0,0,0.05)),-webkit-repeating-linear-gradient(0deg,rgba(0,0,0,0.2),rgba(0,0,0,0.2)),-webkit-repeating-linear-gradient(0deg,rgba(0,0,0,0.2),rgba(0,0,0,0.2)) ,url(../img/banner/industrial.jpg);
+}
 
 .breadcrumb {
     background-size: cover;
