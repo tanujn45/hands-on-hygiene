@@ -59,6 +59,11 @@ body {
 transform: perspective(500px) translateZ(20px);
 
 }
+.rectangle-workplace:hover
+{border: 2px solid #0069B9;
+transform: perspective(500px) translateZ(20px);
+
+}
 
 .group {
     /* position: absolute; */
@@ -432,6 +437,15 @@ h3 {
     font-family: "Rubik", sans-serif;
     font-weight: 400
 }
+.add-width{
+    width: 103.4%;
+}
+@media screen and (max-width:425px){
+    .add-width{
+        width:105.5% !important;
+    }
+}
+
 
 .boxed-btn2:hover {
     color: #fff
@@ -1409,9 +1423,37 @@ h3 {
     display: inline-block
 }
 
+@media screen and (min-width: 1440px) {
+    .variable-row{
+        padding-left: 2.38% !important;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1350px) {
+    .variable-row{
+           padding-right: 5% !important;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .variable-row{
+               padding-right: 7% !important;
+            }
+        }
+
 @media (max-width: 767px) {
     .project-area .more-project a {
         margin-top: 20px
+    }
+}
+@media screen and (min-width: 426px) {
+   .col-padding{
+       padding-left: 2.8% !important;
+   }
+}
+
+@media screen and (max-width: 425px) {
+    .col-padding{
+        margin-block: 4% !important;
     }
 }
 
@@ -5684,7 +5726,16 @@ h6 {
     }
     
 }
-@media screen and (min-width:768px) and (max-width:768px){
+@media screen and (min-width:540px) and (max-width:540px){
+    .product-row{
+        margin-left: 25% !important;
+    }
+    .col-padding{
+        margin-block: 4%;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:912px){
     .product-row{
         margin-left: 12% !important;
     }
